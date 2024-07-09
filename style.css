@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+
+  background-color: rgb(4, 2, 31);
+}
+
+.message-form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+
+.bamboo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(5%);
+  width: 55rem;
+  height: 35rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 3rem;
+  /* background-color: aqua; */
+  max-width: 120rem;
+  text-align: center;
+  border: solid 4px rgb(225, 226, 244);
+  border-radius: 12px;
+  box-shadow: rgb(225, 226, 244) 0px 1px 4px;
+}
+
+.haiku-title {
+  padding-bottom: 2rem;
+  color: rgb(225, 226, 244);
+  font-size: 4rem;
+}
+
+.input-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inputs {
+  height: 4rem;
+  /* width: 30rem; */
+  font-size: 2.4rem;
+  border: none;
+  border-bottom: 2px solid rgb(225, 226, 244);
+  background-color: rgb(4, 2, 31);
+  color: rgb(225, 226, 244);
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+.submit-btn {
+  font-size: 2.2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(36, 204, 255);
+}
+
+.hidden {
+  display: none !important;
+  /* bottom: -100%; */
+}
+
+.container-hidden {
+  display: none;
+}
+
+.poem-space {
+  padding-block: 0.6rem;
+  padding-inline: 5rem;
+  /* height: 4rem;
+  width: 4rem; */
+  background: rgba(30, 105, 146, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  line-height: normal;
+  font-size: 3.4rem;
+  letter-spacing: 0.1rem;
+  font-family: "Playwrite DE Grund", cursive;
+  color: azure;
+  border: solid 1px rgb(79, 240, 243);
+  border-radius: 12px;
+  z-index: 1;
+  transition: bottom 0s ease-out;
+
+  /* position: fixed; */
+}
+
+/* .poem-space p {
+  line-height: 2;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Playwrite DE Grund", cursive;
+  color: azure;
+} */
+
+.animate {
+  animation-name: fadeInAnimation;
+  animation-duration: 5s;
+}
+
+.animate-bamboo {
+  animation-name: fadeInAnimationBamboo;
+  animation-duration: 6s;
+}
+
+.animate-sunflower {
+  animation: sunflowerAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationBamboo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes sunflowerAnimation {
+  0% {
+    bottom: 0rem;
+  }
+  100% {
+    bottom: 50rem;
+  }
+}
+
+.bamboo-one {
+  /* position: relative; */
+  /* opacity: 0;
+  animation-name: flap;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+  width: 100%;
+  height: 100%;
+}
+
+.bamboo-box {
+  transform: translateY(10%);
+}
+
+.sunflower-picture {
+  width: 100%;
+  height: 100%;
+}
+
+.sunflower-box {
+  /* position: fixed; */
+  /* bottom: 0rem; */
+  /* right: 150rem; */
+  /* right: 35%; */
+  width: 20rem;
+  height: 30rem;
+  /* transform: translateY(10%); */
+  /* transition: bottom 2s ease-out; */
+  /* 155rem right */
+}
+.sunflower-box-2 {
+  position: fixed;
+  bottom: 0rem;
+  /* right: 55rem; */
+  left: -1%;
+  width: 4rem;
+  height: 4rem;
+  /* transition: bottom 2s ease-out; */
+  /* 65rem right */
+}
