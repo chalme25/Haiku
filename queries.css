@@ -1,0 +1,182 @@
+/* 1216px */
+@media (max-width: 76em) {
+  /* .poem-space {
+    font-size: 3rem;
+  } */
+  .poem-space p {
+    max-width: 26em;
+    word-wrap: break-word;
+  }
+}
+
+/* 1088px */
+@media (max-width: 68em) {
+  .poem-space p {
+    max-width: 22em;
+    word-wrap: break-word;
+  }
+}
+
+/* 944px */
+@media (max-width: 59em) {
+  /* .poem-space {
+    font-size: 3rem;
+  } */
+  .poem-space p {
+    max-width: 20em;
+    word-wrap: break-word;
+  }
+
+  .poem-space {
+    font-size: 2.2rem;
+  }
+}
+
+/* 816px */
+@media (max-width: 51em) {
+  .poem-space {
+    font-size: 2rem;
+  }
+
+  .poem-space p {
+    max-width: 18em;
+    word-wrap: break-word;
+  }
+}
+
+/* 480px */
+@media (max-width: 30em) {
+  .poem-space p {
+    max-width: 10em;
+    word-wrap: break-word;
+  }
+
+  .container {
+    box-sizing: content-box;
+  }
+
+  .haiku-title {
+    font-size: 3.2rem;
+  }
+
+  .inputs {
+    font-size: 2rem;
+    height: 3.4rem;
+  }
+
+  .submit-btn {
+    font-size: 2rem;
+  }
+}
+
+/* 448px */
+@media (max-width: 28em) {
+  .container {
+    padding: 2.6rem;
+  }
+  .haiku-title {
+    font-size: 3rem;
+  }
+
+  .inputs {
+    font-size: 2rem;
+    height: 3.4rem;
+  }
+
+  .submit-btn {
+    font-size: 2rem;
+    padding: 0.8rem;
+  }
+}
+
+/* 416px */
+@media (max-width: 26em) {
+  .container {
+    padding: 2.4rem;
+  }
+  .haiku-title {
+    font-size: 2.4rem;
+  }
+
+  .inputs {
+    font-size: 1.8rem;
+    height: 3rem;
+  }
+
+  .input-rows {
+    gap: 1.4rem;
+  }
+
+  .submit-btn {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+  }
+}
+
+/* 352px */
+@media (max-width: 22em) {
+  .container {
+    padding: 2.2rem;
+  }
+  .haiku-title {
+    font-size: 2.2rem;
+  }
+
+  .inputs {
+    font-size: 1.4rem;
+    height: 3rem;
+  }
+
+  .submit-btn {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+  }
+  .poem-space {
+    font-size: 1.6rem;
+    padding-inline: 4.4rem;
+  }
+}
+
+/* Height 480px */
+@media (min-height: 0rem) and (max-height: 30rem) {
+  .sunflower-box {
+    width: 12rem;
+    height: 20rem;
+  }
+
+  .poem-space {
+    font-size: 1.6rem;
+  }
+}
+
+/* Height 428px */
+@media (min-height: 0rem) and (max-height: 27rem) {
+  .container {
+    padding: 2.2rem;
+  }
+  .haiku-title {
+    font-size: 2.2rem;
+  }
+
+  .inputs {
+    font-size: 1.4rem;
+    height: 3rem;
+  }
+
+  .submit-btn {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+  }
+
+  .sunflower-box {
+    width: 8rem;
+    height: 12rem;
+  }
+}
+
+/* Height 336px */
+@media (min-height: 0rem) and (max-height: 21rem) {
+  .poem-space {
+    font-size: 1.4rem;
+  }
+}
